@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
-import TableList from "./components/Tablelist";
+import TableList from "./components/TableList";
 import ModalForm from "./components/ModalForm";
 import axios from "axios";
 
