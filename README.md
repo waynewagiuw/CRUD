@@ -1,16 +1,45 @@
-# React + Vite
+**Project ini adalah aplikasi CRUD full-stack dengan:**<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-Backend Node.js + Express<br>
+-Frontend React + Tailwind + DaisyUI<br>
+-Routing react-router-dom<br>
+-Icon lucide-react<br>
+-Database Supabase Realtime<br>
 
-Currently, two official plugins are available:
+**A. Backend (Node.js + Express + Supabase/PostgreSQL)**<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+REST API untuk:<br>
 
-## React Compiler
+-Menambah Data<br>
+-Mengambil Data<br>
+-Mengupdate Data<br>
+-Menghapus Data<br>
+<br>
+Routing modular<br>
+Middleware Express<br>
+Koneksi ke Supabase PostgreSQL<br>
+Struktur clean & mudah dikembangkan<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*Dependency yang digunakan*<br>
+-express	: Web server backend<br>
+-cors     :	Agar API bisa diakses dari domain frontend<br>
+-dotenv   :	Menyimpan environment key secara aman (.env)<br>
+-pg / @supabase/supabase-js	: Koneksi ke database Supabase<br>
+-nodemon  :	Auto restart ketika file berubah<br>
 
-## Expanding the ESLint configuration
+**B. Frontend (React + Vite + Tailwind + DaisyUI + Supabase)**<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Halaman Clients (/clients)<br>
+-Halaman Products (/products)<br>
+-CRUD Data<br>
+-Modal Form<br>
+-Search<br>
+-Responsive Navbar<br>
+-Integrasi penuh dengan Supabase<br>
+
+*Dependency yang digunakan*<br>
+-react-router-dom     	: Route /clients & /products<br>
+-@supabase/supabase-js	: Koneksi realtime Supabase<br>
+-tailwindcss	          : Styling utility<br>
+-daisyui	              : UI components (input, modal, table)<br>
+-lucide-react	          : Icon <br>
