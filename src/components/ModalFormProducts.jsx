@@ -138,7 +138,7 @@ export default function ModalFormProducts({
             ✕
           </button>
 
-          <button type="submit" className="btn btn-success w-full">
+          <button type="submit" className="btn btn-success ">
             {mode === "edit" ? "Save Changes" : "Add Product"}
           </button>
         </form>
