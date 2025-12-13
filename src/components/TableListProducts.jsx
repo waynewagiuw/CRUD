@@ -42,14 +42,14 @@ export default function TableListProducts({
 
               <td className="flex gap-2 h-23 ">
                 <button
-                  className="btn btn-secondary btn-sm self-center "
+                  className="btn btn-secondary self-center "
                   onClick={() => handleOpen("edit", p)}
                 >
                   Edit
                 </button>
 
                 <button
-                  className="btn btn-accent btn-sm self-center"
+                  className="btn btn-accent self-center"
                   onClick={() => handleDelete(p.id)}
                 >
                   Delete
