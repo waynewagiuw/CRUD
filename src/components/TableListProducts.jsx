@@ -13,7 +13,7 @@ export default function TableListProducts({
       <table className="table table-zebra ">
         <thead>
           <tr>
-            <th>ID</th>
+            <th></th>
             <th>Image</th>
             <th>Title</th>
             <th>Category</th>
