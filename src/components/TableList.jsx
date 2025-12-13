@@ -8,7 +8,7 @@ export default function TableList({ tableData, handleOpen, handleDelete, searchT
   return (
     <>
       <div className="overflow-x-auto mt-10">
-        <table className="table">
+        <table className="table table-zebra">
           <thead>
             <tr>
               <th></th>
